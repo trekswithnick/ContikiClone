@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContikiClone.API", "ContikiClone.API\ContikiClone.API.csproj", "{40CC28D6-B9E7-4AEE-9F5F-79D3B8677787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContikiClone.BL", "ContikiClone.BL\ContikiClone.BL.csproj", "{484A5731-3154-4E7F-9786-6B27B17ED11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContikiClone.DAL", "ContikiClone.DAL\ContikiClone.DAL.csproj", "{A44E4F97-E63A-43E2-B020-E7733D1D9AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContikiClone.API.Tests", "ContikiClone.API.Tests\ContikiClone.API.Tests.csproj", "{60DB95BC-B8CB-49E7-8FAF-FEF63CD91E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContikiClone.DAL.Tests", "ContikiClone.DAL.Tests\ContikiClone.DAL.Tests.csproj", "{3322C979-CC67-467A-B2B4-66066D85C0B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{40CC28D6-B9E7-4AEE-9F5F-79D3B8677787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CC28D6-B9E7-4AEE-9F5F-79D3B8677787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CC28D6-B9E7-4AEE-9F5F-79D3B8677787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484A5731-3154-4E7F-9786-6B27B17ED11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484A5731-3154-4E7F-9786-6B27B17ED11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484A5731-3154-4E7F-9786-6B27B17ED11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484A5731-3154-4E7F-9786-6B27B17ED11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44E4F97-E63A-43E2-B020-E7733D1D9AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44E4F97-E63A-43E2-B020-E7733D1D9AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44E4F97-E63A-43E2-B020-E7733D1D9AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44E4F97-E63A-43E2-B020-E7733D1D9AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DB95BC-B8CB-49E7-8FAF-FEF63CD91E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DB95BC-B8CB-49E7-8FAF-FEF63CD91E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DB95BC-B8CB-49E7-8FAF-FEF63CD91E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DB95BC-B8CB-49E7-8FAF-FEF63CD91E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3322C979-CC67-467A-B2B4-66066D85C0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3322C979-CC67-467A-B2B4-66066D85C0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3322C979-CC67-467A-B2B4-66066D85C0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3322C979-CC67-467A-B2B4-66066D85C0B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
